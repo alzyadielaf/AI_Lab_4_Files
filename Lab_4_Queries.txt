@@ -1,15 +1,19 @@
-?- father(ahmed_alzyadi, yahya_alzyadi).
+father(ahmed_alzyadi, yahya_alzyadi).
 
-?- father(mohammad_alzyadi, dhiaa_alzyadi).
+father(mohammad_alzyadi, dhiaa_alzyadi).
 
-?- mother(fatima_alzyadi, mohammad_alzyadi).
+mother(fatima_alzyadi, mohammad_alzyadi).
 
-?- mother(hanaa_zyad, ghazl_alzyadi).
+mother(hanaa_zyad, ghazl_alzyadi).
 
-?- brother(yahya_alzyadi, mohammad_alzyadi).
+brother(yahya_alzyadi, mohammad_alzyadi).
 
-?- brother(abdulelah_alzyadi, hasan_alzyadi).
+brother(abdulelah_alzyadi, hasan_alzyadi).
 
-?- sister(elaf_alzyadi, hasan_alzyadi).
+brother(abdulelah_alzyadi, elaf_alzyadi).
 
-?- sister(ghazl_alzyadi, dhiaa_alzyadi).
+sister(elaf_alzyadi, hasan_alzyadi).
+
+sister(elaf_alzyadi, riouf_alzyadi).
+
+sister(ghazl_alzyadi, dhiaa_alzyadi).
